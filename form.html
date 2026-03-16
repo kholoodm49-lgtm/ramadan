@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>your order</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/images/helal.png!bw700"/>
+
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+   <a href="index.html" target="_blank"> <img src="./assets/images/helal2.jpg" alt="Helal_Ramadan" class="image"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav link">
+        <a class="nav-link" aria-current="page" href="eftar.html" target="_blank">Eftar</a>
+        <a class="nav-link" href="sahur.html" target="_blank">sahur</a>
+        <a class="nav-link" href="drink.html" target="_blank">Drinks</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="form">
+  <div class="content">
+  <form action="#" method="post">
+    <input type="text" placeholder="enter your name" required id="name" class="input">
+    <br>
+    <input type="tel" placeholder="enter your phone" required id="phone" class="input">
+    <br>
+    <input type="text" placeholder="enter your address" required id="address" class="input">
+    <br>
+    <input type="text" placeholder="order price" id="price" class="input">
+    <br>
+    <input type="button" class="input submit" value="submit" onclick="show()">
+  </form>
+</div> 
+<div class="order">
+    <h2 id="order" class="head"></h2>
+    <ul>
+      <li id="username"></li>
+      <li id="userphone"></li>
+      <li id="useraddress"></li>
+      <li id="userprice"></li>
+    </ul>
+    
+  </div>
+</div>
+
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

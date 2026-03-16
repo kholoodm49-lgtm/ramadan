@@ -1,0 +1,172 @@
+body,html{
+    background-color: rgb(148, 163, 158);
+    height: 100%;
+}
+
+.index{
+    margin-top: 10%;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 40px;
+    transition: all 1s ease-in;
+}
+
+.image:hover{
+    transform: scale(1.2);
+}
+
+.link{
+    margin-left: 75%;
+    gap: 33px;
+}
+
+.link a{
+    color: black;
+    font-size: 20px;
+}
+
+.link a:hover{
+    color: rgb(70, 154, 66);
+}
+
+
+.headline{
+    text-align: center;
+    margin: 30px;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(136, 168, 136);
+}
+
+.child{
+    background-color: rgb(234, 244, 234);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 6px;
+    height: 35vh;
+    border-radius: 20px;
+    width: 32%;
+    transition: all 1s ease-in;
+}
+
+.child:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgb(86, 84, 84);
+}
+
+.child img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.child h2{
+    margin-top: 20px;
+}
+
+.child p{
+    margin-top:12px ;
+}
+
+.child button{
+    margin-top: 20px;
+}
+
+.child1{
+    background-color: rgb(234, 244, 234);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 6px;
+    height: 35vh;
+    border-radius: 20px;
+    width: 24%;
+    transition: all 1s ease-in;
+}
+
+.child1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.child1 h2{
+    margin-top: 20px;
+}
+
+.child1 p{
+    margin-top:12px ;
+}
+
+.child1 button{
+    margin-top: 20px;
+}
+
+/*form*/
+.form{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content{
+   background-color: rgb(57 163 127 / 15%);
+    border-radius: 10px;
+    width: 25%;
+    height: 55vh;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(86, 84, 84);
+}
+
+.input{
+    margin-top: 42px;
+    padding: 12px 39px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(86, 84, 84);
+}
+
+input::placeholder{
+    text-align: center;
+    color: rgba(82, 118, 82, 0.561);
+}
+
+.submit{
+    transition: all 1s ease-in;
+}
+
+.submit:hover{
+    transform: scale(1.1);
+    background-color: rgb(138, 187, 171);
+    color: black;
+}
+
+.order{
+    position: absolute;
+    top: 85%;
+    right: 45%;
+    background-color: rgb(57 , 163, 127 , 15%);
+    border-radius: 10px;
+}
+
+.order ul{
+    list-style-type: none;
+}
+
+.head{
+color: rgba(82, 118, 82, 0.781);
+}
+
+.order ul li{
+    color: rgba(49, 66, 49, 0.781);
+}
